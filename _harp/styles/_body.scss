@@ -1,0 +1,49 @@
+.intro {
+  margin-top: -10em;
+  background-color: #fff;
+  border: none;
+  color: #777;
+
+  h1 {
+    font-weight: 300;
+    margin-top: 1.5em;
+  }
+
+  p {
+    display: inline-block;
+    border-top: solid 2px #e5e5e5;
+    margin: 1.5em 0 0 0;
+    padding: 1.5em 0;
+    font-style: normal;
+  }
+
+  img {
+    border-radius: 0 0 4px 4px;
+  }
+}
+
+.box {
+  padding: 52px;
+}
+
+.section-top {
+  padding-bottom: 52px;
+}
+
+.section-left {
+  padding-right: 52px;
+}
+
+.section-right {
+  padding-left: 52px;
+}
+
+.section-bottom {
+  padding-top: 52px;
+}
+
+section.jumbotron {
+  padding-top: 20px;
+  background-color: $warm;
+  color: #fff;
+}

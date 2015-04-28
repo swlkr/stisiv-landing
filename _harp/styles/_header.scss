@@ -1,0 +1,21 @@
+header.jumbotron {
+  color: #fff;
+  background-image: url("../images/overlay.png"), url("../images/city.jpg");
+  background-position: top left, center center;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  background-color: #777;
+  padding: 10em 0 18em 0;
+
+  h1 {
+    font-weight: 300;
+  }
+
+  p {
+    font-size: 28px;
+  }
+
+  button {
+    color: #777;
+  }
+}
