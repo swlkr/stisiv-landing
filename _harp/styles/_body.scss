@@ -26,20 +26,49 @@
   padding: 52px;
 }
 
-.section-top {
-  padding-bottom: 52px;
+@media (min-width: 767px) {
+  .border-left {
+    border-left: solid 2px $border;
+  }
+
+  .border-right {
+    border-right: solid 2px $border;
+  }
+
+  .border-bottom {
+    border-bottom: solid 2px $border;
+    padding: 0;
+  }
+
+  .section-top {
+    padding-bottom: 52px;
+  }
+
+  .section-left {
+    padding-right: 52px;
+  }
+
+  .section-right {
+    padding-left: 52px;
+  }
+
+  .section-bottom {
+    padding-top: 52px;
+  }
 }
 
-.section-left {
-  padding-right: 52px;
-}
+@media (max-width: 767px) {
+  .border-bottom {
+    border-bottom: solid 2px $border;
+    margin-bottom: 52px;
+    padding-bottom: 26px;
+  }
 
-.section-right {
-  padding-left: 52px;
-}
-
-.section-bottom {
-  padding-top: 52px;
+  .border-top {
+    border-bottom: solid 2px $border;
+    margin-bottom: 52px;
+    padding-bottom: 26px;
+  }
 }
 
 section.jumbotron {
