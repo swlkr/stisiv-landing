@@ -1,9 +1,10 @@
 header.jumbotron {
   color: #fff;
+  background: url(../images/bg.png);
   background-color: $cool;
-  background-position: top left, center center;
-  background-repeat: repeat, no-repeat;
-  background-size: auto, cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   padding: 10em 0 18em 0;
 
   h1 {
