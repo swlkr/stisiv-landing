@@ -1,11 +1,11 @@
-# stisiv landing page
+# visics landing page
 
 ### Dev!
 
 ```bash
-git clone git@github.com:swlkr/stisiv-landing.git swlkr
+git clone git@github.com:swlkr/visics-landing.git swlkr
 npm install -g harp
-cd stisiv
+cd visics
 harp server _harp
 ```
 
